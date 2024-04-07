@@ -49,8 +49,8 @@
     gap: 45px;
 }
 .nav-login-cart button{
-    margin-left: 50px;
-    width: 157px;
+    margin-left: 70px;
+    width: 179px;
     height: 58px;
     outline: none;
     border: 1px solid #7a7a7a;
@@ -63,14 +63,14 @@
 }
 .nav-login-cart img {
     height: auto;
-    max-width: 10%;
+    max-width: 100%;
   }
   .nav-login-cart button:active{
     background: #f3f3f3;
   }
   .nav-cart-count{
-    height: 22px;
-    width: 22px;
+    height: 17px;
+    width: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +78,7 @@
     margin-left: -55px;
     border-radius: 11px;
     font-size: 14px;
+    margin-right: 140px;
     background: red;
     color: white;
   }

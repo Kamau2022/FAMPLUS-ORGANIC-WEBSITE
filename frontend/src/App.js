@@ -16,9 +16,10 @@ function App() {
       <Route path='/fruits' element={<ShopCategory category="fruit"/>}/>
       <Route path='/veges' element={<ShopCategory category="veges"/>}/>
       <Route path='/product' element={<product/>}/>
-      <Route path=':productId' element={<product/>}/>    
+       <Route path=':productId' element={<product/>}/>    
       <Route path='/cart' element={<cart/>}/>
       <Route path='/login' element={<loginsignup/>}/>
+      
       </Routes>
     </BrowserRouter>
     </div>
