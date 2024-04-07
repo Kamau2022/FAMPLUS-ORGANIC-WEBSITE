@@ -9,13 +9,13 @@ const Navbar = () => {
         <div className='navbar'>
           <div className='nav-logo'>
             <img src={logo} alt=""/>
-            <p>SHOPPER</p>
+            <p>FAMPLUS</p>
           </div>
           <ul className='nav-menu'>
-            <li onClick={()=>{setMenu('shop')}}>Shop{menu=="shop"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('fruits')}}>Fruits{menu=="fruits"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('veges')}}>Vegetables{menu=="veges"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('animal')}}>Products{menu=="animal"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('shop')}}>Shop{menu==="shop"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('fruits')}}>Fruits{menu==="fruits"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('veges')}}>Vegetables{menu==="veges"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('animal')}}>Products{menu==="animal"?<hr/>:<></>}</li>
           </ul>
           <div className='nav-login-cart'>
             <button>Login</button>
