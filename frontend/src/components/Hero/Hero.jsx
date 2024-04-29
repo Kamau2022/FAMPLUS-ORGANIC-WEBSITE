@@ -1,32 +1,28 @@
-import React from 'react'
-import './Hero.css'
-import logo from '../Assets/logo.png'
-import onion from '../Assets/onion.png'
-import tomato from '../Assets/tomato.png'
+import React from 'react';
+import './Hero.css';
+import onion from '../Assets/onion.png';
+
 const Hero = () => {
     return (
-        
-       <div className='hero'>
-       <div className="hero-left">
-        <h2>New ARRIVALS ONLY</h2>
-        <div>
-            <div className="hand-hand-icon">
-                <p>new</p>
-                <img src={logo} alt=""/>
+        <div className='hero'>
+            <div className="hero-left">
+                <h2>NEW PRODUCTS ONLY</h2>
+                <div>
+                    <div className="hero-icon">
+                        <p>new</p>
+                    </div>
+                    <p>Products</p>
+                    <p>for everyone</p>
+                </div>
+                <div className="hero-latest-btn">
+                    <div>Organic Products</div>
+                </div>
             </div>
-            <p>Collections</p>
-            <p>for everyone</p>
-        </div>
-        <div className="hero-latest-button"></div>
-        <div>Latest collections</div>
-        <img src={tomato} alt=""/>
-       </div>
-       <div className="hero-right">
-       <img src={onion} alt=""/>
-       </div>
-       </div> 
-    )
+            <div className="hero-right">
+                <img src={onion} alt=""/>
+            </div>
+        </div> 
+    );
 }
 
-export default Hero
-
+export default Hero;
