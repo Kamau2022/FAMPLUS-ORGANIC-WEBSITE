@@ -24,13 +24,6 @@ let data_product = [
         image: p3_img,
         new_price: 30,
         old_price: 50,
-    }, 
-    {
-        id: 4,
-        name: "Pumpkin",
-        image: p4_img,
-        new_price: 25,
-        old_price: 40,
-    }, 
+    }
 ];
 export default data_product;
