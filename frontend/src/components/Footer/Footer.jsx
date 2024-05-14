@@ -17,6 +17,7 @@ function Footer() {
             <li>Products</li>
             <li>Offices</li>
             <li>About</li>
+            <li>Careers</li>
             <li>Contact</li>
         </ul>
         <div className="footer-social-icon">

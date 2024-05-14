@@ -14,9 +14,10 @@ const Navbar = () => {
           </div>
           <ul className='nav-menu'>
             <li onClick={()=>{setMenu('shop')}}><Link style={{ textDecoration: 'none'}} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('fruits')}}><Link style={{ textDecoration: 'none'}}to='/fruits'>Fruits</Link>{menu==="fruits"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('vegetables')}}><Link style={{ textDecoration: 'none'}}to='/vegetables'>Vegetables</Link>{menu==="vegetables"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu('products')}}><Link style={{ textDecoration: 'none'}}to='/products'>Products</Link>{menu==="products"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('services')}}><Link style={{ textDecoration: 'none'}}to='/services'>Services</Link>{menu==="services"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('workshops')}}><Link style={{ textDecoration: 'none'}}to='/workshops'>Workshops</Link>{menu==="workshops"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('blogs')}}><Link style={{ textDecoration: 'none'}}to='/blogs'>Blogs</Link>{menu==="blogs"?<hr/>:<></>}</li>
           </ul>
           <div className='nav-login-cart'>
             <Link to='/login'><button>Login</button></Link>
